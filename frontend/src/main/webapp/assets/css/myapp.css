@@ -1,7 +1,8 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
 body {
-	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
-}
-
-footer {
-	margin: 50px 0;
+  padding-top: 56px;
 }
