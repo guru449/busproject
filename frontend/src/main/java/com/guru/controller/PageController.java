@@ -10,7 +10,32 @@ public class PageController {
 	public ModelAndView index()
 	{
 		ModelAndView mv=new ModelAndView("page");
-		mv.addObject("name","guru");
+		mv.addObject("title","home");
+		mv.addObject("userclickhome",true);
+		return mv;
+	}
+	@RequestMapping(value= "/about")
+	public ModelAndView about()
+	{
+		ModelAndView mv=new ModelAndView("page");
+		mv.addObject("title","about");
+		mv.addObject("userclickabout",true);
+		return mv;
+	}
+	@RequestMapping(value= "/services")
+	public ModelAndView services()
+	{
+		ModelAndView mv=new ModelAndView("page");
+		mv.addObject("title","services");
+		mv.addObject("userclickservices",true);
+		return mv;
+	}
+	@RequestMapping(value= "/contact")
+	public ModelAndView contact()
+	{
+		ModelAndView mv=new ModelAndView("page");
+		mv.addObject("title","contact");
+		mv.addObject("userclickcontact",true);
 		return mv;
 	}
 
