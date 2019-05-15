@@ -18,6 +18,12 @@
     <artifactId>spring-webmvc</artifactId>
     <version>${spring.version}</version>
 </dependency>
+<!-- link backend to frontend -->
+<dependency>
+ <groupId>com.guru</groupId>
+  <artifactId>backend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </dependency>
 
   
   <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
